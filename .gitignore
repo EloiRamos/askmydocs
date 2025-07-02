@@ -1,0 +1,25 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+*.env
+
+# ---- Streamlit cache ----
+.streamlit/
+*.log
+
+# ---- FAISS index files ----
+*.faiss
+*.pkl
+
+# ---- VSCode or JetBrains IDEs ----
+.vscode/
+.idea/
+
+# ---- macOS/Linux/Windows ----
+.DS_Store
+Thumbs.db
